@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="imagens/logo.png" alt="Logo da Empresa" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li>
+                        <a href="#">Consórcio</a>
+                        <div class="dropdown-content">
+                            <a href="imoveis.html">Imóveis</a>
+                            <a href="autos.html">Autos</a>
+                            <a href="motos.html">Motos</a>
+                            <a href="pesados.html">Pesados</a>
+                            <a href="servicos.html">Serviços</a>
+                            <a href="cirurgia-plastica.html">Cirurgia Plástica</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Como Funciona</a>
+                        <div class="dropdown-content">
+                            <a href="passo-a-passo.html">Passo a Passo</a>
+                            <a href="meia-parcela.html">Meia Parcela</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="contact-form">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Número de Celular:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="state">Estado:</label>
+            <input type="text" id="state" name="state" required>
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section class="contact-info">
+        <h2>Informações de Contato</h2>
+        <p><strong>Endereço:</strong> Rua Exemplo, 123, Bairro, Cidade, Estado</p>
+        <p><strong>Telefone:</strong> (11) 1234-5678</p>
+        <p><strong>Email:</strong> contato@empresa.com</p>
+        <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+    </section>
+    <footer class="footer-info">
+        <p>Informações de Contato do Vendedor</p>
+        <p>Endereço da Loja Física</p>
+        <p>Horário de Atendimento</p>
+        <img src="imagens/logo.png" alt="Logo da Empresa" class="logo-footer">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
